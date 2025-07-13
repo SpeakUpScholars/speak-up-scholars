@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Frequently asked questions about Speak Up Scholars and our programs.">
+    <title>FAQ | Speak Up Scholars</title>
+    <link href="https://fonts.googleapis.com/css2?family=Times+New+Roman&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="index.html">Speak Up Scholars</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="tutor-signup.html">Tutor Sign Up</a></li>
+            <li><a href="signup-help.html">Get Help</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- FAQ Section -->
+<section class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <p>If you have any questions, you're in the right place! Below are some of the most common questions we get.</p>
+
+    <!-- Accordion -->
+    <div class="accordion">
+        <!-- Accordion Item 1 -->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                What is Speak Up Scholars?
+            </div>
+            <div class="accordion-body">
+                Speak Up Scholars is a non-profit organization that aims to teach children public speaking and debate skills while also offering tutoring in subjects such as English, Spanish, and Math.
+            </div>
+        </div>
+
+        <!-- Accordion Item 2 -->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                How can I become a tutor?
+            </div>
+            <div class="accordion-body">
+                You can sign up to become a tutor by filling out our online tutor application form, available on the Tutor Sign-Up page. We’re always looking for passionate individuals to join our team!
+            </div>
+        </div>
+
+        <!-- Accordion Item 3 -->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                What subjects do you offer tutoring in?
+            </div>
+            <div class="accordion-body">
+                We offer tutoring in English, Spanish, Math, and public speaking/debate. We are committed to helping students overcome challenges in these areas.
+            </div>
+        </div>
+
+        <!-- Accordion Item 4 -->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                How do I get help with public speaking?
+            </div>
+            <div class="accordion-body">
+                You can sign up for help through our "Get Help" page. Our tutors will work with you one-on-one to improve your speaking and debating skills.
+            </div>
+        </div>
+
+        <!-- Accordion Item 5 -->
+        <div class="accordion-item">
+            <div class="accordion-header">
+                Is there a cost for the services?
+            </div>
+            <div class="accordion-body">
+                All services are free for students. Speak Up Scholars is a non-profit organization committed to helping students.
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2025 Speak Up Scholars | All Rights Reserved.</p>
+    <div class="contact-info">
+        <p>Contact us at <a href="mailto:speakupscholarsorg@gmail.com">speakupscholarsorg@gmail.com</a></p>
+    </div>
+</footer>
+
+<!-- JavaScript for Accordion -->
+<script>
+    // Select all accordion items
+    const accordionItems = document.querySelectorAll('.accordion-item');
+
+    accordionItems.forEach(item => {
+        // Add a click event listener to each accordion header
+        item.querySelector('.accordion-header').addEventListener('click', () => {
+            // Toggle the active class on the clicked item
+            item.classList.toggle('active');
+        });
+    });
+</script>
+
+</body>
+</html>
